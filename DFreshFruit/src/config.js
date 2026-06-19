@@ -3,7 +3,7 @@
 export const BUSINESS = {
   name: "D'FRESHFRUIT",
   tagline: 'Buah segar pilihan, langsung ke tanganmu',
-  whatsappNumber: '6281234567890', // Ganti dengan nomor WhatsApp asli (format: 62xxxxxxxxxx)
+  whatsappNumber: '6282130252141', // Ganti dengan nomor WhatsApp asli (format: 62xxxxxxxxxx)
   instagram: 'https://instagram.com/dfreshfruit.id',
   email: 'hello@dfreshfruit.id',
   address: 'Jl. Kemang Raya No. 12, Jakarta Selatan, DKI Jakarta',
