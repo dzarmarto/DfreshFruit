@@ -1,7 +1,7 @@
 // Konfigurasi terpusat — ubah di sini untuk update seluruh website
 
 export const BUSINESS = {
-  name: "D'FRESHFRUIT",
+  name: "DFRESHFRUIT",
   tagline: 'Buah segar pilihan, langsung ke tanganmu',
   whatsappNumber: '6282130252141', // Ganti dengan nomor WhatsApp asli (format: 62xxxxxxxxxx)
   instagram: 'https://instagram.com/dfreshfruit.id',
