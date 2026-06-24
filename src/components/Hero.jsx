@@ -18,9 +18,9 @@ export default function Hero() {
           </span>
 
           <h1 className="mt-6 font-display text-4xl sm:text-5xl lg:text-[3.4rem] leading-[1.08] font-semibold text-ink-900 text-balance">
-            Buah Segar Import & Lokal{' '}
+            Ubah Snack Rapat Menjadi{' '}
             <span className="relative inline-block text-forest-600">
-              Pilihan Terbaik
+              Lebih Sehat
               <svg
                 className="absolute -bottom-2 left-0 w-full"
                 viewBox="0 0 300 12"
