@@ -38,8 +38,8 @@ export default function Hero() {
           </h1>
 
           <p className="mt-6 text-lg text-ink-500 leading-relaxed">
-            Paket buah segar langsung dari sumber terbaik — buah import premium
-            dan buah lokal berkualitas. Praktis dipesan, cepat diantar.
+             Paket buah segar untuk meeting, seminar, dan acara kantor.
+            Praktis, sehat, dan disukai semua peserta.
           </p>
 
           <div className="mt-8 flex flex-col sm:flex-row gap-4">
