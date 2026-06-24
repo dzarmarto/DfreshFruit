@@ -82,7 +82,7 @@ export default function Hero() {
         <div className="relative">
           <div className="relative aspect-[4/5] sm:aspect-[5/6] rounded-4xl overflow-hidden shadow-card-hover bg-forest-100">
             <img
-              src="https://images.unsplash.com/photo-1610832958506-aa56368176cf?q=80&w=1000&auto=format&fit=crop"
+              src="https://i.ibb.co/V0TKmS9X/dreamina-2025-11-26-1125-Create-a-modern-homepage-hero-image-kee.jpg"
               alt="Paket buah segar premium disusun rapi untuk acara meeting kantor"
               className="w-full h-full object-cover"
               loading="eager"
