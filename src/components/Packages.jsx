@@ -11,8 +11,8 @@ const PACKAGES = [
       'https://images.unsplash.com/photo-1619566636858-adf3ef46400b?q=80&w=800&auto=format&fit=crop',
     imageAlt: 'Paket 2 buah segar terdiri dari 1 buah import dan 1 buah lokal',
     features: [
-      '1 buah import pilihan (mis. Muscat, Dragon Fruit, Kiwi)',
-      '1 buah lokal terbaik (mis. Manggis, Salak, Jambu)',
+      '1 buah import pilihan',
+      '1 buah lokal terbaik',
       'Dikemas rapi & higienis',
     ],
   },
