@@ -3,7 +3,8 @@ import PackageCard from './PackageCard'
 
 const PACKAGES = [
   {
-    name: '1 Import + 1 Lokal',
+    name: 'Paket 2 Buah',
+    badge: '1 Import + 1 Lokal',
     description: 'Kombinasi sempurna buah import premium dan buah lokal segar terbaik pilihan kami.',
     price: 'Tanya Harga',
     image: 'https://i.ibb.co/tM03wkN6/dreamina-2026-06-18-2296-Enhance-the-product-photo-with-clean-and.png',
