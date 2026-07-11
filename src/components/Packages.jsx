@@ -18,7 +18,6 @@ const PACKAGES = [
     name: 'Paket 3 Buah',
     badge: '2 Import + 1 Lokal',
     description: 'Paket favorit kami — lebih banyak pilihan buah import premium dalam satu paket.',
-    price: 'Tanya Harga',
     image: 'https://i.ibb.co/mF1XhvG5/dreamina-2025-11-26-9649-Create-a-premium-studio-look-smooth-lig.jpg',
     imageAlt: 'Paket 3 buah terdiri dari 2 buah import dan 1 buah lokal pilihan',
     featured: true,
@@ -32,7 +31,6 @@ const PACKAGES = [
     name: 'Paket 2 Buah Import',
     badge: 'All Import',
     description: 'Untuk Anda yang ingin menikmati dua jenis buah import pilihan sekaligus.',
-    price: 'Tanya Harga',
     image: 'https://i.ibb.co/sJmz8q3h/dreamina-2025-11-26-6863-Create-a-premium-studio-look-smooth-lig.jpg',
     imageAlt: 'Paket 2 buah import premium pilihan segar berkualitas tinggi',
     features: [
@@ -45,7 +43,6 @@ const PACKAGES = [
     name: 'Paket Buah Potong',
     badge: 'Siap Makan',
     description: 'Buah segar sudah dipotong, dibersihkan, dan siap disantap langsung.',
-    price: 'Tanya Harga',
     image: 'https://i.ibb.co/3ygjVq70/dreamina-2026-06-18-5134-Enhance-the-product-photo-with-clean-and.png',
     imageAlt: 'Paket buah potong segar siap makan dalam kemasan higienis',
     features: [
