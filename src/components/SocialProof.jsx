@@ -1,17 +1,32 @@
 import useReveal from '../hooks/useReveal'
 
 const STATS = [
-  { value: '1.000+', label: 'Packs Terkirim' },
+  { value: '1.000+', label: 'Box Terkirim' },
   { value: '50+', label: 'Acara Perusahaan' },
   { value: '90%', label: 'Pelanggan Repeat Order' },
 ]
 
-const LOGO_PLACEHOLDERS = [
-  'PT Pegadaian',
-  'Kementrian Koperasi',
-  'LPSK (Lembaga Perlindungan Saksi & Korban)',
-  'ICDX',
-  'PT Mitra Sejahtera',
+const LOGOS = [
+  {
+    name: 'Kementerian Koperasi RI',
+    src: 'https://i.ibb.co/KckcNhtZ/Logo-Kementerian-Koperasi-Republik-Indonesia-2024-svg.png',
+  },
+  {
+    name: 'LPSK',
+    src: 'https://i.ibb.co/DHQCmb5s/LPSK.png',
+  },
+  {
+    name: 'ICDX',
+    src: 'https://i.ibb.co/jPwnZbyS/images.png',
+  },
+  {
+    name: 'Pegadaian',
+    src: 'https://i.ibb.co/4R6XvTKY/Pegadaian-new-logo.png',
+  },
+  {
+    name: 'PT Mitra Sejahtera',
+    src: 'https://i.ibb.co/4RPNM5PM/images.jpg',
+  },
 ]
 
 export default function SocialProof() {
@@ -37,16 +52,22 @@ export default function SocialProof() {
         </div>
 
         <div className="mt-14">
-          <p className="text-center text-xs font-semibold tracking-widest text-ink-400 uppercase mb-7">
+          <p className="text-center text-xs font-semibold tracking-widest text-ink-400 uppercase mb-8">
             Dipercaya oleh tim dari berbagai perusahaan
           </p>
-          <div className="flex flex-wrap justify-center items-center gap-x-10 gap-y-5">
-            {LOGO_PLACEHOLDERS.map((name) => (
+          <div className="flex flex-wrap justify-center items-center gap-x-10 gap-y-6">
+            {LOGOS.map((logo) => (
               <div
-                key={name}
-                className="text-ink-400/70 font-display font-semibold text-base sm:text-lg select-none grayscale opacity-70 hover:opacity-100 transition-opacity"
+                key={logo.name}
+                className="flex items-center justify-center grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300"
+                title={logo.name}
               >
-                {name}
+                <img
+                  src={logo.src}
+                  alt={`Logo ${logo.name}`}
+                  className="h-10 sm:h-12 w-auto object-contain max-w-[120px] sm:max-w-[140px]"
+                  loading="lazy"
+                />
               </div>
             ))}
           </div>
