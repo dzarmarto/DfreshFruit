@@ -2,40 +2,34 @@ import useReveal from '../hooks/useReveal'
 
 const TESTIMONIALS = [
   {
-    name: 'Dian Pratiwi',
-    role: 'HR Manager, PT Mitra Sejahtera',
-    text: 'Tim kami jadi lebih semangat saat meeting karena ada buah segar. Pengiriman selalu tepat waktu dan rasanya benar-benar segar.',
-    avatar: '👩🏻‍💼',
-  },
-  {
-    name: 'Bayu Setiawan',
-    role: 'Event Coordinator, Global Tech Indo',
+    name: 'Bapak Andy',
+    role: 'Sekretaris Perusahaan, PT Pegadaian',
     text: 'Untuk acara seminar 200 orang, mereka bisa handle dengan rapi. Tampilan buahnya juga estetik, cocok untuk dokumentasi acara.',
     avatar: '🧑🏻‍💼',
   },
   {
-    name: 'Sarah Amelia',
-    role: 'Office Manager, Nusantara Finance',
-    text: 'Sudah langganan 8 bulan untuk meeting mingguan. Variasi buahnya selalu fresh dan tim sangat responsif di WhatsApp.',
-    avatar: '👩🏼‍💼',
+    name: 'Bapak Budi',
+    role: 'Koordinator, Kementerian Koperasi dan UMKM',
+    text: 'Tim kami jadi lebih semangat saat meeting karena ada buah segar. Pengiriman selalu tepat waktu dan rasanya benar-benar segar.',
+    avatar: '👨🏻‍💼',
   },
   {
-    name: 'Reza Firmansyah',
-    role: 'Training Manager, Bintang Konsultan',
-    text: 'Peserta training jadi lebih fokus, tidak ngantuk seperti biasanya pakai snack manis. Worth it untuk image perusahaan juga.',
+    name: 'Kak Dimas',
+    role: 'General Affair, PT Mitra Sejahtera',
+    text: 'Proses order gampang banget, tinggal chat WhatsApp langsung dibantu pilih paket sesuai budget dan jumlah tamu.',
     avatar: '🧑🏽‍💼',
   },
   {
-    name: 'Putri Lestari',
-    role: 'Secretary, Cipta Karya Group',
-    text: 'Proses order gampang banget, tinggal chat WhatsApp langsung dibantu pilih paket sesuai budget dan jumlah tamu.',
-    avatar: '👩🏻‍💻',
+    name: 'Ibu Tita',
+    role: 'General Affair, ICDX',
+    text: 'Invoice perusahaan tersedia, jadi mudah untuk reimbursement. Kualitas buah konsisten di setiap pemesanan.',
+    avatar: '👩🏻‍💼',
   },
   {
-    name: 'Andi Wijaya',
-    role: 'GM Operasional, Maju Bersama Corp',
-    text: 'Invoice perusahaan tersedia, jadi mudah untuk reimbursement. Kualitas buah konsisten di setiap pemesanan.',
-    avatar: '🧑🏻‍💻',
+    name: 'Ibu Nia',
+    role: 'GM Operasional, LPSK',
+    text: 'Variasi buahnya selalu fresh dan tim sangat responsif di WhatsApp.',
+    avatar: '👩🏼‍💼',
   },
 ]
 
