@@ -1,18 +1,17 @@
 import useReveal from '../hooks/useReveal'
 
 const STATS = [
-  { value: '1.000+', label: 'Box Terkirim' },
-  { value: '100+', label: 'Acara Perusahaan' },
-  { value: '95%', label: 'Pelanggan Repeat Order' },
+  { value: '1.000+', label: 'Packs Terkirim' },
+  { value: '50+', label: 'Acara Perusahaan' },
+  { value: '90%', label: 'Pelanggan Repeat Order' },
 ]
 
 const LOGO_PLACEHOLDERS = [
+  'PT Pegadaian',
+  'Kementrian Koperasi',
+  'LPSK (Lembaga Perlindungan Saksi & Korban)',
+  'ICDX',
   'PT Mitra Sejahtera',
-  'Global Tech Indo',
-  'Nusantara Finance',
-  'Bintang Konsultan',
-  'Cipta Karya Group',
-  'Maju Bersama Corp',
 ]
 
 export default function SocialProof() {
