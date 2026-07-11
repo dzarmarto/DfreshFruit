@@ -3,7 +3,7 @@ import useReveal from '../hooks/useReveal'
 const STATS = [
   { value: '1.000+', label: 'Packs Terkirim' },
   { value: '50+', label: 'Acara Perusahaan' },
-  { value: '90%', label: 'Pelanggan Repeat Order' },
+  { value: '95%', label: 'Pelanggan Repeat Order' },
 ]
 
 const LOGOS = [
