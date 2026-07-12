@@ -1,5 +1,3 @@
-import { BUSINESS, getWhatsAppLink } from '../config'
-
 export default function Footer() {
   const year = new Date().getFullYear()
 
@@ -7,6 +5,7 @@ export default function Footer() {
     <footer className="bg-ink-900 text-cream-100 pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-5 sm:px-8">
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
+
           {/* About */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2 mb-4">
@@ -87,6 +86,7 @@ export default function Footer() {
               Jakarta Timur
             </a>
           </div>
+
         </div>
 
         <div className="mt-12 pt-6 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-3">
