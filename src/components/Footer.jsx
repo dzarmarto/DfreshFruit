@@ -1,3 +1,5 @@
+import { BUSINESS, getWhatsAppLink } from '../config'
+
 export default function Footer() {
   const year = new Date().getFullYear()
 
@@ -5,91 +7,77 @@ export default function Footer() {
     <footer className="bg-ink-900 text-cream-100 pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-5 sm:px-8">
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
-
+          {/* About */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2 mb-4">
               <span className="w-9 h-9 rounded-full bg-forest-600 flex items-center justify-center text-lg">
                 🍊
               </span>
               <span className="font-display text-lg font-semibold text-white">
-                D&apos;FRESHFRUIT
+                Fresh & Healthy Snack
               </span>
             </div>
             <p className="text-cream-100/70 text-sm leading-relaxed max-w-sm">
-              D&apos;FRESHFRUIT menyediakan paket buah segar pilihan — buah import
-              premium dan buah lokal terbaik — langsung ke tangan Anda. Segar,
-              sehat, dan praktis dipesan via WhatsApp.
+              Menyediakan paket buah segar premium untuk kebutuhan meeting,
+              seminar, training, dan acara perusahaan Anda. Sehat, praktis,
+              dan dapat dipercaya.
             </p>
           </div>
 
+          {/* Contact */}
           <div>
             <p className="font-semibold text-white mb-4 text-sm uppercase tracking-wide">
               Kontak
             </p>
             <ul className="space-y-3 text-sm text-cream-100/70">
               <li>
-                
-                  href="https://wa.me/6282130252141"
+                <a
+                  href={getWhatsAppLink()}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-citrus-300 transition-colors flex items-center gap-2"
+                  className="hover:text-citrus-300 transition-colors"
                 >
-                  📱 082130252141
+                  WhatsApp: +{BUSINESS.whatsappNumber}
                 </a>
               </li>
               <li>
-                
-                  href="mailto:dfreshmartjkt@gmail.com"
-                  className="hover:text-citrus-300 transition-colors flex items-center gap-2"
+                <a
+                  href={`mailto:${BUSINESS.email}`}
+                  className="hover:text-citrus-300 transition-colors"
                 >
-                  ✉️ dfreshmartjkt@gmail.com
+                  {BUSINESS.email}
                 </a>
               </li>
               <li>
-                
-                  href="https://instagram.com/dfreshfruitjkt"
+                <a
+                  href={BUSINESS.instagram}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-citrus-300 transition-colors flex items-center gap-2"
+                  className="hover:text-citrus-300 transition-colors"
                 >
-                  📸 @DFRESHFRUITJKT
-                </a>
-              </li>
-              <li>
-                
-                  href="https://dfreshfruit.vercel.app"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-citrus-300 transition-colors flex items-center gap-2"
-                >
-                  🌐 dfreshfruit.vercel.app
+                  Instagram
                 </a>
               </li>
             </ul>
           </div>
 
+          {/* Address */}
           <div>
             <p className="font-semibold text-white mb-4 text-sm uppercase tracking-wide">
               Alamat
             </p>
-            
-              href="https://maps.google.com/?q=Jl.+Trikora+No.14+RT+05/09+Kel.+Gedong+Kec.+Pasar+Rebo+Jakarta+Timur"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm text-cream-100/70 hover:text-citrus-300 transition-colors leading-relaxed flex items-start gap-2"
-            >
-              📍 Jl. Trikora No. 14 RT 05/09, Kel. Gedong, Kec. Pasar Rebo, Jakarta Timur
-            </a>
+            <p className="text-sm text-cream-100/70 leading-relaxed">
+              {BUSINESS.address}
+            </p>
           </div>
-
         </div>
 
         <div className="mt-12 pt-6 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-3">
           <p className="text-xs text-cream-100/50">
-            © {year} D&apos;FRESHFRUIT. Seluruh hak cipta dilindungi.
+            © {year} Fresh & Healthy Snack. Seluruh hak cipta dilindungi.
           </p>
           <p className="text-xs text-cream-100/50">
-            Dibuat dengan 🍓 untuk hidup yang lebih sehat.
+            Dibuat dengan 🍓 untuk acara kantor yang lebih sehat.
           </p>
         </div>
       </div>
