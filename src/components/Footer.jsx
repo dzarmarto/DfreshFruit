@@ -6,24 +6,22 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-5 sm:px-8">
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
 
-          {/* About */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2 mb-4">
               <span className="w-9 h-9 rounded-full bg-forest-600 flex items-center justify-center text-lg">
                 🍊
               </span>
               <span className="font-display text-lg font-semibold text-white">
-                D'FRESHFRUIT
+                D&apos;FRESHFRUIT
               </span>
             </div>
             <p className="text-cream-100/70 text-sm leading-relaxed max-w-sm">
-              D'FRESHFRUIT menyediakan paket buah segar pilihan — buah import
+              D&apos;FRESHFRUIT menyediakan paket buah segar pilihan — buah import
               premium dan buah lokal terbaik — langsung ke tangan Anda. Segar,
               sehat, dan praktis dipesan via WhatsApp.
             </p>
           </div>
 
-          {/* Kontak */}
           <div>
             <p className="font-semibold text-white mb-4 text-sm uppercase tracking-wide">
               Kontak
@@ -54,7 +52,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="hover:text-citrus-300 transition-colors flex items-center gap-2"
                 >
-                  📸 @D'FRESHFRUITJKT
+                  📸 @DFRESHFRUITJKT
                 </a>
               </li>
               <li>
@@ -70,7 +68,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Alamat */}
           <div>
             <p className="font-semibold text-white mb-4 text-sm uppercase tracking-wide">
               Alamat
@@ -81,9 +78,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="text-sm text-cream-100/70 hover:text-citrus-300 transition-colors leading-relaxed flex items-start gap-2"
             >
-              📍 Jl. Trikora No. 14 RT 05/09,
-              Kel. Gedong, Kec. Pasar Rebo,
-              Jakarta Timur
+              📍 Jl. Trikora No. 14 RT 05/09, Kel. Gedong, Kec. Pasar Rebo, Jakarta Timur
             </a>
           </div>
 
@@ -91,7 +86,7 @@ export default function Footer() {
 
         <div className="mt-12 pt-6 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-3">
           <p className="text-xs text-cream-100/50">
-            © {year} D'FRESHFRUIT. Seluruh hak cipta dilindungi.
+            © {year} D&apos;FRESHFRUIT. Seluruh hak cipta dilindungi.
           </p>
           <p className="text-xs text-cream-100/50">
             Dibuat dengan 🍓 untuk hidup yang lebih sehat.
