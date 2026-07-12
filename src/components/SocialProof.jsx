@@ -9,7 +9,7 @@ const STATS = [
 const LOGOS = [
   {
     name: 'Kementerian Koperasi RI',
-    image: 'https://i.ibb.co/KckcNhtZ/Logo-Kementerian-Koperasi-Republik-Indonesia-2024-svg.png',
+    image: 'https://ibb.co.com/v6Nx0Qw4/-Kementerian-Koperasi-Republik-Indonesia-2024-svg.png',
   },
   {
     name: 'LPSK',
