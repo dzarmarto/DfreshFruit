@@ -24,51 +24,68 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Contact */}
+          {/* Kontak */}
           <div>
             <p className="font-semibold text-white mb-4 text-sm uppercase tracking-wide">
               Kontak
             </p>
             <ul className="space-y-3 text-sm text-cream-100/70">
               <li>
-                <a
-                  href={getWhatsAppLink()}
+                
+                  href="https://wa.me/6282130252141"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-citrus-300 transition-colors"
+                  className="hover:text-citrus-300 transition-colors flex items-center gap-2"
                 >
-                  WhatsApp: +{BUSINESS.whatsappNumber}
+                  📱 082130252141
                 </a>
               </li>
               <li>
-                <a
-                  href={`mailto:${BUSINESS.email}`}
-                  className="hover:text-citrus-300 transition-colors"
+                
+                  href="mailto:dfreshmartjkt@gmail.com"
+                  className="hover:text-citrus-300 transition-colors flex items-center gap-2"
                 >
-                  {BUSINESS.email}
+                  ✉️ dfreshmartjkt@gmail.com
                 </a>
               </li>
               <li>
-                <a
-                  href={BUSINESS.instagram}
+                
+                  href="https://instagram.com/dfreshfruitjkt"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-citrus-300 transition-colors"
+                  className="hover:text-citrus-300 transition-colors flex items-center gap-2"
                 >
-                  Instagram
+                  📸 @D'FRESHFRUITJKT
+                </a>
+              </li>
+              <li>
+                
+                  href="https://dfreshfruit.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-citrus-300 transition-colors flex items-center gap-2"
+                >
+                  🌐 dfreshfruit.vercel.app
                 </a>
               </li>
             </ul>
           </div>
 
-          {/* Address */}
+          {/* Alamat */}
           <div>
             <p className="font-semibold text-white mb-4 text-sm uppercase tracking-wide">
               Alamat
             </p>
-            <p className="text-sm text-cream-100/70 leading-relaxed">
-              {BUSINESS.address}
-            </p>
+            
+              href="https://maps.google.com/?q=Jl.+Trikora+No.14+RT+05/09+Kel.+Gedong+Kec.+Pasar+Rebo+Jakarta+Timur"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-cream-100/70 hover:text-citrus-300 transition-colors leading-relaxed flex items-start gap-2"
+            >
+              📍 Jl. Trikora No. 14 RT 05/09,
+              Kel. Gedong, Kec. Pasar Rebo,
+              Jakarta Timur
+            </a>
           </div>
         </div>
 
@@ -77,7 +94,7 @@ export default function Footer() {
             © {year} D'FRESHFRUIT. Seluruh hak cipta dilindungi.
           </p>
           <p className="text-xs text-cream-100/50">
-            Dibuat dengan 🍓 untuk acara kantor yang lebih sehat.
+            Dibuat dengan 🍓 untuk hidup yang lebih sehat.
           </p>
         </div>
       </div>
