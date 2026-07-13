@@ -14,13 +14,13 @@ export default function Footer() {
                 🍊
               </span>
               <span className="font-display text-lg font-semibold text-white">
-                Fresh & Healthy Snack
+                D'FRESHFRUIT
               </span>
             </div>
             <p className="text-cream-100/70 text-sm leading-relaxed max-w-sm">
-              Menyediakan paket buah segar premium untuk kebutuhan meeting,
-              seminar, training, dan acara perusahaan Anda. Sehat, praktis,
-              dan dapat dipercaya.
+              D'FRESHFRUIT menyediakan paket buah segar pilihan — buah import
+              premium dan buah lokal terbaik — langsung ke tangan Anda. Segar,
+              sehat, dan praktis dipesan via WhatsApp.
             </p>
           </div>
 
@@ -61,25 +61,20 @@ export default function Footer() {
             </ul>
           </div>
 
-           {/* Address */}
+          {/* Address */}
           <div>
             <p className="font-semibold text-white mb-4 text-sm uppercase tracking-wide">
               Alamat
             </p>
-            
-              href="https://maps.app.goo.gl/6BTwvNgUEB5Fa5vn7"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm text-cream-100/70 hover:text-citrus-300 transition-colors leading-relaxed"
-            >
+            <p className="text-sm text-cream-100/70 leading-relaxed">
               {BUSINESS.address}
-            </a>
+            </p>
           </div>
         </div>
 
         <div className="mt-12 pt-6 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-3">
           <p className="text-xs text-cream-100/50">
-            © {year} Fresh & Healthy Snack. Seluruh hak cipta dilindungi.
+            © {year} D'FRESHFRUIT. Seluruh hak cipta dilindungi.
           </p>
           <p className="text-xs text-cream-100/50">
             Dibuat dengan 🍓 untuk acara kantor yang lebih sehat.
