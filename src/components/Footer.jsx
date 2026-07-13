@@ -61,14 +61,19 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Address */}
+           {/* Address */}
           <div>
             <p className="font-semibold text-white mb-4 text-sm uppercase tracking-wide">
               Alamat
             </p>
-            <p className="text-sm text-cream-100/70 leading-relaxed">
+            
+              href="https://maps.app.goo.gl/6BTwvNgUEB5Fa5vn7"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-cream-100/70 hover:text-citrus-300 transition-colors leading-relaxed"
+            >
               {BUSINESS.address}
-            </p>
+            </a>
           </div>
         </div>
 
