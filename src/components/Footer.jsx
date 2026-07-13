@@ -23,6 +23,7 @@ export default function Footer() {
               dan dapat dipercaya.
             </p>
           </div>
+
           {/* Contact */}
           <div>
             <p className="font-semibold text-white mb-4 text-sm uppercase tracking-wide">
@@ -30,7 +31,7 @@ export default function Footer() {
             </p>
             <ul className="space-y-3 text-sm text-cream-100/70">
               <li>
-                
+                <a
                   href={getWhatsAppLink()}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -40,7 +41,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                
+                <a
                   href={`mailto:${BUSINESS.email}`}
                   className="hover:text-citrus-300 transition-colors"
                 >
@@ -48,7 +49,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                
+                <a
                   href={BUSINESS.instagram}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -59,21 +60,18 @@ export default function Footer() {
               </li>
             </ul>
           </div>
+
           {/* Address */}
           <div>
             <p className="font-semibold text-white mb-4 text-sm uppercase tracking-wide">
               Alamat
             </p>
-            
-              href="https://maps.app.goo.gl/6BTwvNgUEB5Fa5vn7"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm text-cream-100/70 hover:text-citrus-300 transition-colors leading-relaxed"
-            >
+            <p className="text-sm text-cream-100/70 leading-relaxed">
               {BUSINESS.address}
-            </a>
+            </p>
           </div>
         </div>
+
         <div className="mt-12 pt-6 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-3">
           <p className="text-xs text-cream-100/50">
             © {year} Fresh & Healthy Snack. Seluruh hak cipta dilindungi.
