@@ -1,31 +1,31 @@
 import useReveal from '../hooks/useReveal'
 
 const STATS = [
-  { value: '1.000+', label: 'Packs Terkirim' },
-  { value: '50+', label: 'Acara Perusahaan' },
+  { value: '1.000+', label: 'Box Terkirim' },
+  { value: '100+', label: 'Acara Perusahaan' },
   { value: '95%', label: 'Pelanggan Repeat Order' },
 ]
 
 const LOGOS = [
   {
     name: 'Kementerian Koperasi RI',
-    image: 'https://i.ibb.co/KckcNhtZ/Logo-Kementerian-Koperasi-Republik-Indonesia-2024-svg.png',
+    src: '/Logo Kementrian Koperasi.webp',
   },
   {
     name: 'LPSK',
-    src: 'https://i.ibb.co/DHQCmb5s/LPSK.png',
+    src: '/LPSK.png',
   },
   {
     name: 'ICDX',
-    src: 'https://i.ibb.co/jPwnZbyS/images.png',
+    src: '/logo-icdx-2.png',
   },
   {
     name: 'Pegadaian',
-    src: 'https://i.ibb.co/4R6XvTKY/Pegadaian-new-logo.png',
+    src: '/Pegadaian_new_logo.png',
   },
   {
     name: 'PT Mitra Sejahtera',
-    src: 'https://i.ibb.co/4RPNM5PM/images.jpg',
+    src: '/logo mitra sejahtera.jpeg',
   },
 ]
 
@@ -64,7 +64,7 @@ export default function SocialProof() {
               >
                 <img
                   src={logo.src}
-                  alt={`Logo ${logo.name}`}
+                  alt={logo.name}
                   className="h-10 sm:h-12 w-auto object-contain max-w-[120px] sm:max-w-[140px]"
                   loading="lazy"
                 />
