@@ -13,7 +13,7 @@ const LOGOS = [
   },
   {
     name: 'LPSK',
-    src: '/LPSK.png',
+    src: '/logo lpsk.jpg',
   },
   {
     name: 'ICDX',
